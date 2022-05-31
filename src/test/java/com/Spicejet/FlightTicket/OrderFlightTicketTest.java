@@ -66,7 +66,7 @@ public class OrderFlightTicketTest {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@data-testid='Children-testID-plus-one-cta']")).click();
 
-
+        driver.close();
 
 
 	}
