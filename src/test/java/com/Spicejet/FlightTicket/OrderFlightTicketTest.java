@@ -29,6 +29,7 @@ public class OrderFlightTicketTest {
 		Properties p=new Properties();
 		p.load(fis);
 		String url = p.getProperty("url");
+		// //
 	//	FileInputStream fexcel=new FileInputStream("./src/test/resources/FlightExcel.xlsx");
 		//Workbook wb = WorkbookFactory.create(fexcel);
 	   // String From = wb.getSheet("FlightTicket").getRow(2).getCell(1).getStringCellValue();
@@ -66,7 +67,7 @@ public class OrderFlightTicketTest {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@data-testid='Children-testID-plus-one-cta']")).click();
 
-
+        driver.close();
 
 
 	}
