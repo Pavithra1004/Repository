@@ -23,6 +23,7 @@ public class OrderFlightTicketTest {
 		JavascriptExecutor js=((JavascriptExecutor)driver);
 		js.executeScript("arguements[0].setAttribute('value'),'"+dateVal+"');", ele);
 	}
+	//added
 	public static void main(String[] args) throws IOException, InterruptedException {
 		FileInputStream fis=new FileInputStream("./src/test/resources/commonData.Properties");
 		Properties p=new Properties();
